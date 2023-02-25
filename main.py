@@ -580,7 +580,6 @@ if __name__ == "__main__":
             if len(setp_array) == 2:
                 step = str(random.randint(int(setp_array[0]), int(setp_array[1])))
                 print(f"已设置为随机步数（{setp_array[0]}-{setp_array[1]}）")
-                print(user_list,passwd_list)
             elif str(step) == '0':
                 step = ''
             to_push.push_msg += main(user, passwd, step) + '\n'
